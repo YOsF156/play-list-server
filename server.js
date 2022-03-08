@@ -14,6 +14,7 @@ const {
   emploeyRoute,
 } = require("./routes/router.js");
 
+
 //Uses
 const app = express();
 app.use(cors());
