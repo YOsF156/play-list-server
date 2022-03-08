@@ -38,10 +38,9 @@ connectDB().then(() => {
 // app.listen(port, () => {
 //   console.log(`Listening on port ${port}`);
 // });
-
-const PORT = process.env.PORT || 3001;
-app.listen(PORT, (err) => {
+const port = process.env.PORT || 5000;
+app.listen(port, (err) => {
   if (err) throw err;
-  console.log(PORT);
+  console.log(port);
   console.log("%c Server running", "color: green");
 });
